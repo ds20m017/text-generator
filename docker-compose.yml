@@ -1,0 +1,8 @@
+version: '1.0'
+
+services:
+  text-generator:
+    build: .
+    image: ds20m017/text-generator
+    ports:
+      - 5000:5000
